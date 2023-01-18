@@ -11,8 +11,8 @@ const Programs = () => {
     <section className='programs'>
         <div className="container programs__container">
             <SectionHead icon={<FaCrown/>} title="Programs"/>
-        </div>
-        <div className="programs_wrapper">
+       
+        <div className="programs__wrapper">
             {
                 programs.map(({id,icon,title,info,path})=>{
                     return <Card className='programs__program' key={id}>
@@ -23,6 +23,7 @@ const Programs = () => {
                     </Card>
                 })
             }
+        </div>
         </div>
     </section>
   )
