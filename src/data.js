@@ -278,43 +278,43 @@ export const trainers = [
     {
         id: 1,
         image: Trainer1,
-        name: 'John Doe',
-        job: 'Aerobic Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        name: 'Job Sagini',
+        job: 'Basketball Trainer',
+        socials: ['https://www.behance.net/joshuaandy', 'https://twitter.com/AndyOpote?t=ZXDYqVo3rUAo-fQ06voX5w&s=09', 'https://www.behance.net/joshuaandy', 'https://www.linkedin.com/in/andy-opote-5446b5245']
     },
     {
         id: 2,
         image: Trainer2,
-        name: 'Daniel vinyo',
-        job: 'Speed Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        name: 'Kelvin Kicks',
+        job: 'Kungfu Trainer',
+        socials: ['https://www.behance.net/joshuaandy', 'https://twitter.com/AndyOpote?t=ZXDYqVo3rUAo-fQ06voX5w&s=09', 'https://www.behance.net/joshuaandy', 'https://www.linkedin.com/in/andy-opote-5446b5245']
     },
     {
         id: 3,
         image: Trainer3,
-        name: 'Edem Quist',
+        name: 'Brayo Birdman',
         job: 'Flexibility Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        socials: ['https://www.behance.net/joshuaandy', 'https://twitter.com/AndyOpote?t=ZXDYqVo3rUAo-fQ06voX5w&s=09', 'https://www.behance.net/joshuaandy', 'https://www.linkedin.com/in/andy-opote-5446b5245']
     },
     {
         id: 4,
         image: Trainer4,
-        name: 'Shatta Wale',
+        name: 'Fred Wafula',
         job: 'Body Composition Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        socials: ['https://www.behance.net/joshuaandy', 'https://twitter.com/AndyOpote?t=ZXDYqVo3rUAo-fQ06voX5w&s=09', 'https://www.behance.net/joshuaandy', 'https://www.linkedin.com/in/andy-opote-5446b5245']
     },
     {
         id: 5,
         image: Trainer5,
-        name: 'Diana Ayi',
+        name: 'Shakira Ali',
         job: 'Circuit Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        socials: ['https://www.behance.net/joshuaandy', 'https://twitter.com/AndyOpote?t=ZXDYqVo3rUAo-fQ06voX5w&s=09', 'https://www.behance.net/joshuaandy', 'https://www.linkedin.com/in/andy-opote-5446b5245']
     },
     {
         id: 6,
         image: Trainer6,
         name: 'Wayne Carter',
         job: 'Physical Intelligence Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        socials: ['https://www.behance.net/joshuaandy', 'https://twitter.com/AndyOpote?t=ZXDYqVo3rUAo-fQ06voX5w&s=09', 'https://www.behance.net/joshuaandy', 'https://www.linkedin.com/in/andy-opote-5446b5245']
     }
 ]

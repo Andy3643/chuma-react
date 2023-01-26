@@ -1,6 +1,7 @@
 .contact__container{
     display: grid;
     place-items: center;
+    margin-bottom: 10%;
 }
 .contact__wrapper{
     width: fit-content;
@@ -30,5 +31,8 @@
         padding: 1rem;
         font-size: 1.2rem;
         border-radius: 1rem;
+    }
+    .contact__container{
+        margin-bottom: 40%;
     }
 }

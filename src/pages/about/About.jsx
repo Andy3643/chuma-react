@@ -34,10 +34,8 @@ const About = () => {
 
         <div className="about__section-content">
             <h1>Our Vision</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam dolorum optio autem!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam dolorum optio autem!</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam dolorum optio autem!</p>
-
+            <p>To enhance the quality of life in the communities, we serve through our fitness philosophy, facilities, programs, and products and to instill in the lives of people everywhere the value of health and fitness.</p>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate cupiditate nesciunt quam.</p>
         </div>
         <div className='about__section-image'>
             <img src={VisionImage} alt=" our vision" />

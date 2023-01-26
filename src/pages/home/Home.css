@@ -59,6 +59,10 @@
     align-items: center;
     justify-content: center;
 }
+.programs__program p{
+    font-weight: bolder;
+    font-size: 2rem;
+}
 .programs__program:hover a{
     background: var(--color-secondary);
     color: var(--color-gray-600);
@@ -190,8 +194,12 @@
 footer{
     margin-top: 4rem;
     background: var(--color-primary);
-    padding: 8rem;
+    padding: 2rem;
+ }
+.footer__container{
+    text-align: center;
 }
+
 /* ====media queries================*/
 /* medium screens */
 @media screen and (max-width:1200px) {

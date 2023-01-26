@@ -17,7 +17,7 @@ const Programs = () => {
                 programs.map(({id,icon,title,info,path})=>{
                     return <Card className='programs__program' key={id}>
                         <span>{icon}</span>
-                        <span>{title}</span>
+                        <p>{title}</p>
                         <small>{info}</small>
                         <Link to={path} className='btn sm'>Learn more<AiFillCaretRight/></Link>
                     </Card>
