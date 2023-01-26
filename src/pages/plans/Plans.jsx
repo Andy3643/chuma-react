@@ -1,8 +1,36 @@
-import React from 'react'
+import Header from '../../components/Header'
+import HeaderImage from '../../images/header_bg_4.jpg'
+import Card from '../../UI/Card'
+import {plans} from '../../data'
 import './Plans.css'
 const Plans = () => {
   return (
-    <div>Plans</div>
+    <>
+    <Header title='Our Gallery' image={HeaderImage}>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod aliquid suscipit ad eos consequatur, dolorem impedit.
+    </Header>
+    <section className='plans'>
+      <div className="container plans__container">
+        {
+          plans.map(({id,name,desc,price,features})=>{
+            return <Card key={id} className='plan'>
+              <h3>{name}</h3>
+              <small>{desc}</small>
+              <h2>{`$${price}`}</h2><h3>/mo</h3>
+              <h5>Features</h5>
+              {
+                features.map(({feature,available},index)=>{
+                  return <p key={index} className={!available?'disabled':''}>{feature}</p>
+                })
+              }
+              <button className='btn lg'>Choose Plan</button>
+            </Card>
+          })
+        }
+      </div>
+
+    </section>
+    </>
   )
 }
 
