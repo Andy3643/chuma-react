@@ -8,6 +8,7 @@ import Plans from './pages/plans/Plans'
 import Trainers from './pages/trainers/Trainers'
 import Notfound from './pages/notfound/Notfound'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='about' element={<About/>}/>
 
         </Routes>
+        <Footer/>
     </BrowserRouter>
   )
 }
