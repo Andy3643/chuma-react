@@ -18,7 +18,7 @@ Read the following [document](https://github.com/gitname/react-gh-pages) to lear
 ## Built With
 
 * [React](https://reactjs.org/) - Javascript library used
-* HTML - to make the client side web framework.
+* JSX - to make the client side web framework.
 * CSS3 - for styling and responsive design
 * Javascript - Making UI for good user experience
 
